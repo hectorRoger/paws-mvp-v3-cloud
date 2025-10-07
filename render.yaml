@@ -1,15 +1,24 @@
+# Render Blueprint for API + Managed Postgres
+# Deploy via: Render Dashboard → New → Blueprint → select this repo
+databases:
+  - name: paws-db
+    plan: free
+
 services:
   - type: web
     name: paws-api
-    env: node
+    runtime: node
     rootDir: backend
     plan: free
-    buildCommand: npm install
-    startCommand: node server.js
     autoDeploy: true
+    buildCommand: npm install
+    preDeployCommand: node migrate.js
+    startCommand: node server.js
     envVars:
       - key: DATABASE_URL
-        sync: false
+        fromDatabase:
+          name: paws-db
+          property: connectionString
       - key: PGSSL
         value: "true"
       - key: PORT
