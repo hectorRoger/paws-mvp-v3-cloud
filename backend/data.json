@@ -1,0 +1,164 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "password": "admin123"
+    }
+  ],
+  "items": [
+    {
+      "id": "dog_huxru052",
+      "type": "product",
+      "name": "Dog Food \u2013 Premium Beef 10kg",
+      "category": "Dogs",
+      "subcategory": "Food",
+      "price": 45000,
+      "stock": 40,
+      "image": "https://placedog.net/600/400?id=101",
+      "description": "High-protein beef formula for active dogs."
+    },
+    {
+      "id": "dog_2nj0mb0w",
+      "type": "product",
+      "name": "Dog Food \u2013 Chicken & Rice 5kg",
+      "category": "Dogs",
+      "subcategory": "Food",
+      "price": 28000,
+      "stock": 35,
+      "image": "https://placedog.net/600/400?id=102",
+      "description": "Balanced nutrition for adult dogs."
+    },
+    {
+      "id": "dog_gmsj7r9p",
+      "type": "product",
+      "name": "Puppy Kibble 3kg",
+      "category": "Dogs",
+      "subcategory": "Food",
+      "price": 22000,
+      "stock": 50,
+      "image": "https://placedog.net/600/400?id=103",
+      "description": "Small-bite kibble for growing puppies."
+    },
+    {
+      "id": "dog_zv7boqww",
+      "type": "product",
+      "name": "Nylon Leash",
+      "category": "Dogs",
+      "subcategory": "Accessories",
+      "price": 8000,
+      "stock": 100,
+      "image": "https://placedog.net/600/400?id=104",
+      "description": "Durable nylon leash for daily walks."
+    },
+    {
+      "id": "dog_mffwdswk",
+      "type": "product",
+      "name": "Rubber Chew Toy",
+      "category": "Dogs",
+      "subcategory": "Toys",
+      "price": 7000,
+      "stock": 120,
+      "image": "https://placedog.net/600/400?id=105",
+      "description": "Durable chew toy to support dental health."
+    },
+    {
+      "id": "cat_f4zp7ob5",
+      "type": "product",
+      "name": "Cat Litter 10kg \u2013 Clumping",
+      "category": "Cats",
+      "subcategory": "Litter",
+      "price": 12000,
+      "stock": 80,
+      "image": "https://placekitten.com/600/400?image=1",
+      "description": "Odor control clumping litter."
+    },
+    {
+      "id": "cat_t5wumd84",
+      "type": "product",
+      "name": "Cat Food \u2013 Salmon 5kg",
+      "category": "Cats",
+      "subcategory": "Food",
+      "price": 26000,
+      "stock": 35,
+      "image": "https://placekitten.com/600/400?image=2",
+      "description": "Omega-rich salmon formula."
+    },
+    {
+      "id": "cat_fcsxvwug",
+      "type": "product",
+      "name": "Scratching Post",
+      "category": "Cats",
+      "subcategory": "Accessories",
+      "price": 20000,
+      "stock": 25,
+      "image": "https://placekitten.com/600/400?image=3",
+      "description": "Sturdy post to protect furniture."
+    },
+    {
+      "id": "bird_lqk5r4n1",
+      "type": "product",
+      "name": "Bird Seed Mix 2kg",
+      "category": "Birds",
+      "subcategory": "Food",
+      "price": 9000,
+      "stock": 70,
+      "image": "https://picsum.photos/id/1025/600/400.jpg",
+      "description": "Balanced seed mix for small to medium birds."
+    },
+    {
+      "id": "fish_xumwmuo4",
+      "type": "product",
+      "name": "Aquarium Starter Kit 20L",
+      "category": "Fish",
+      "subcategory": "Tanks",
+      "price": 60000,
+      "stock": 20,
+      "image": "https://picsum.photos/id/1011/600/400.jpg",
+      "description": "Tank with filter and LED light."
+    },
+    {
+      "id": "bun_5ki4l41g",
+      "type": "bundle",
+      "name": "Puppy Starter Kit",
+      "category": "Dogs",
+      "subcategory": "Bundle",
+      "price": 65000,
+      "stock": 15,
+      "image": "https://placedog.net/600/400?id=110",
+      "description": "Leash, bowl, chew toy, and 1kg puppy food."
+    },
+    {
+      "id": "bun_lo07yjz7",
+      "type": "bundle",
+      "name": "Cat Essentials Pack",
+      "category": "Cats",
+      "subcategory": "Bundle",
+      "price": 55000,
+      "stock": 20,
+      "image": "https://placekitten.com/600/400?image=6",
+      "description": "Litter, scoop, toy, and 1kg cat food."
+    },
+    {
+      "id": "svc_hq6qfafv",
+      "type": "service",
+      "name": "Grooming \u2013 Full Service",
+      "category": "Services",
+      "subcategory": "Grooming",
+      "price": 20000,
+      "stock": null,
+      "image": "https://picsum.photos/id/1032/600/400.jpg",
+      "description": "Bath, brush, nail trim."
+    },
+    {
+      "id": "svc_3kpz792v",
+      "type": "service",
+      "name": "Puppy Training (4 weeks)",
+      "category": "Services",
+      "subcategory": "Training",
+      "price": 80000,
+      "stock": null,
+      "image": "https://placedog.net/600/400?id=120",
+      "description": "Group training for basics."
+    }
+  ]
+}
